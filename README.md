@@ -24,7 +24,7 @@ Um bot para Telegram desenvolvido em Node.js que atua como um painel de administ
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/seu-repositorio.git](https://github.com/SEU-USUARIO/seu-repositorio.git)
+   git clone https://github.com/kaiquemix/Bot-Telegram-AMCASER.git
    
 Instale as dependências:
 
