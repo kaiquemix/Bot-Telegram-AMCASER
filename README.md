@@ -33,15 +33,17 @@ npm install
 Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
 
 Snippet de código
-BOT_TOKEN=seu_token_do_telegram_aqui
-MEU_CHAT_ID=seu_id_do_telegram_aqui
-FTP_HOST=ip_ou_host_do_servidor
-FTP_USER=usuario_do_cpanel
-FTP_PASS=senha_do_cpanel
-Inicie o bot:
+- BOT_TOKEN=seu_token_do_telegram_aqui
+- MEU_CHAT_ID=seu_id_do_telegram_aqui
+- FTP_HOST=ip_ou_host_do_servidor
+- FTP_USER=usuario_do_cpanel
+- FTP_PASS=senha_do_cpanel
 
-Bash
+Inicie o bot:
+```bash
 npm start
-☁️ Deploy (Render)
+```
+
+## ☁️ Deploy (Render)
 Este projeto está configurado para rodar nativamente como um Web Service no Render.
 Para evitar a hibernação do plano gratuito, configure um ping a cada 10 minutos para a URL gerada pelo Render usando serviços como o cron-job.org.
